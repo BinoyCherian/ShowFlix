@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ShowFliX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8T-Rz-RsF">
+                                <rect key="frame" x="115.5" y="70" width="89" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Binoy CHERIAN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S11-eG-Et3">
+                                <rect key="frame" x="100.5" y="414" width="119" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="binoy.cherian@epita.fr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFu-ol-JBc">
+                                <rect key="frame" x="75" y="433" width="170.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cherian2ams@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdM-Eu-DX7">
+                                <rect key="frame" x="84" y="452" width="152" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="TK8-T4-xPI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tv_icon" translatesAutoresizingMaskIntoConstraints="NO" id="daD-Ox-7Ng">
+                                <rect key="frame" x="60" y="150" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="9LX-lP-ri1"/>
+                                    <constraint firstAttribute="height" constant="200" id="bw3-aq-4mS"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12264080644137601" green="0.44851247863136606" blue="0.66918312823834203" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eFu-ol-JBc" firstAttribute="top" secondItem="S11-eG-Et3" secondAttribute="bottom" constant="-2" id="6h1-bi-A7L"/>
+                            <constraint firstItem="S11-eG-Et3" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="7Lh-Bj-lo2"/>
+                            <constraint firstItem="y8T-Rz-RsF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="EjI-am-e8o"/>
+                            <constraint firstItem="eFu-ol-JBc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="MiF-SB-hRZ"/>
+                            <constraint firstItem="zdM-Eu-DX7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="NpE-cQ-I9R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zdM-Eu-DX7" secondAttribute="bottom" constant="7" id="Tt1-QI-U87"/>
+                            <constraint firstItem="daD-Ox-7Ng" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="XC1-LF-V9h"/>
+                            <constraint firstItem="daD-Ox-7Ng" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ZcX-js-XUD"/>
+                            <constraint firstItem="y8T-Rz-RsF" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aJ5-EE-Z10"/>
+                            <constraint firstItem="zdM-Eu-DX7" firstAttribute="top" secondItem="eFu-ol-JBc" secondAttribute="bottom" constant="-2" id="lrw-1I-zDZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="63" y="-155"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tv_icon" width="512" height="512"/>
+    </resources>
+</document>
